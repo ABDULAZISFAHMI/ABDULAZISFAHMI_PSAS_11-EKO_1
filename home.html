@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Mountain Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>Mountain Store</h1>
+    <div class="menu">
+        ⋮
+        <div class="dropdown">
+            <a href="cart.html">Keranjang</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>Perlengkapan Terbaik Untuk Pendakianmu</h2>
+</section>
+
+<section class="products">
+    <div class="product-card">
+        <img src="images/hydropack.jpg">
+        <h3>Hydropack</h3>
+        <p>Rp 250.000</p>
+        <button onclick="addToCart('Hydropack',250000)">Keranjang</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/daypack.jpg">
+        <h3>Daypack</h3>
+        <p>Rp 350.000</p>
+        <button onclick="addToCart('Daypack',350000)">Keranjang</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/carrier.jpg">
+        <h3>Carrier</h3>
+        <p>Rp 750.000</p>
+        <button onclick="addToCart('Carrier',750000)">Keranjang</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/trekking-pole.jpg">
+        <h3>Trekking Pole</h3>
+        <p>Rp 200.000</p>
+        <button onclick="addToCart('Trekking Pole',200000)">Keranjang</button>
+    </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
